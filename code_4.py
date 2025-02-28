@@ -39,9 +39,5 @@ def get_the_most_expensive_big_mac_price_by_year(year):
     return message
 
 if __name__ == "__main__":
-    # per_year = get_big_mac_price_by_country('mex')
-    # print(per_year)
-    # per_year2 = get_big_mac_price_by_year('2018','mex')
-    # print(per_year2)
     per_year3 = get_the_most_expensive_big_mac_price_by_year('2014')
     print(per_year3)
